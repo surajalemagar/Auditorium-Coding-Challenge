@@ -14,17 +14,17 @@ Constraints:
 Solution
 To solve this problem, we need to find the two buildings that form the largest possible container (area) between them. Here’s how we can approach it step by step:
 
-Key Concepts:
+# Key Concepts:
 Width: The distance between two buildings. If we compare buildings at positions left and right, the width is simply right - left.
+
 Height: The height of the shorter building between left and right. It’s calculated as min(height[left], height[right]).
-Area: The area between two buildings is the product of the Width and Height:
-Area
-=
-Width
-×
-Height
+
+Area: The area between two buildings is the product of the width and height:
+
 Area=Width×Height
-Approach in Simple Steps:
+
+
+# Approach in Simple Steps:
 Compare Every Pair of Buildings:
 
 We need to check every possible pair of buildings to find the one that gives us the maximum area.
